@@ -1,0 +1,8 @@
+// Last updated: 8/13/2025, 1:31:04 PM
+class Solution {
+    public boolean isPowerOfFour(int n) {
+       if(n<=0) return false;
+       while(n%4 == 0){n /=4;}
+       return n==1;
+    }
+}
